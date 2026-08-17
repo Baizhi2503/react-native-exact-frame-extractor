@@ -8,14 +8,6 @@
   "scripts": {
     "build": "tsc"
   },
-  "keywords": [
-    "react-native",
-    "expo",
-    "video",
-    "frame-capture",
-    "exact-frame",
-    "mediacodec"
-  ],
   "author": "Anushk",
   "license": "MIT",
   "peerDependencies": {
@@ -28,5 +20,23 @@
     "react": "18.3.1",
     "react-native": "0.76.0",
     "typescript": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Baizhi2503/react-native-exact-frame-extractor"
+  },
+  "keywords": [
+    "react-native",
+    "android",
+    "video",
+    "frame-extraction",
+    "frame-accurate",
+    "forensics",
+    "evidence",
+    "investigation"
+  ],
+  "bugs": {
+    "url": "https://github.com/Baizhi2503/react-native-exact-frame-extractor/issues"
+  },
+  "homepage": "https://github.com/Baizhi2503/react-native-exact-frame-extractor#readme"
 }

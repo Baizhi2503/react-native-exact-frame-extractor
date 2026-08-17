@@ -1,0 +1,39 @@
+name: Bug Report
+description: Report a frame extraction issue
+labels: ["bug"]
+body:
+  - type: input
+    id: device
+    attributes:
+      label: Device
+      placeholder: "e.g., Pixel 5, Samsung Galaxy S21"
+    validations:
+      required: true
+  - type: input
+    id: android_version
+    attributes:
+      label: Android Version & API Level
+      placeholder: "e.g., Android 13, API 33"
+    validations:
+      required: true
+  - type: textarea
+    id: video_details
+    attributes:
+      label: Video Details
+      placeholder: "Codec (H.264/H.265), resolution (720p/1080p), fps, container (MP4/MOV)"
+    validations:
+      required: true
+  - type: input
+    id: timestamp
+    attributes:
+      label: Timestamp Where It Fails
+      placeholder: "e.g., 2:34:500"
+    validations:
+      required: true
+  - type: textarea
+    id: logcat
+    attributes:
+      label: Logcat Output
+      placeholder: "adb logcat | grep FrameCaptureModule"
+    validations:
+      required: false
